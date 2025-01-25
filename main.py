@@ -142,7 +142,7 @@ def login_outlook(driver, email, password):
     return otp
 
 def main():
-    service = Service("//Users/leeweixuan/Desktop/SassyNic-selenium/driver/chromedriver")
+    service = Service("./driver/chromedriver")
     driver = webdriver.Chrome(service=service)
     try:
         # Login to CLIC first
